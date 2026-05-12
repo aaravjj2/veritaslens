@@ -1,0 +1,1 @@
+Synthetic Dutch-language election narrative for multilingual fixture tests.

@@ -1,0 +1,1 @@
+Synthetic vaccine hesitancy example for testing.

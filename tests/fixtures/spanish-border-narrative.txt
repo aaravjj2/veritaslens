@@ -1,0 +1,1 @@
+Synthetic Spanish border narrative for multilingual fixture tests.

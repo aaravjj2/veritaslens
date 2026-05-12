@@ -1,0 +1,1 @@
+Sample fixture article for automated tests. Claims in this file are synthetic.

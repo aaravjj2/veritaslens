@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js / builds
+.next/
+**/.next/
+out/
+**/out/
+dist/
+**/dist/
+build/
+*.tsbuildinfo
+
+# Env & secrets (never commit)
+.env
+.env.*
+!.env.example
+!.env*.example
+web/.env.local
+*.pem
+*.key
+
+# Vercel / deploy
+.vercel/
+
+# Test & coverage
+coverage/
+**/coverage/
+playwright-report/
+**/playwright-report/
+test-results/
+**/test-results/
+artifacts/
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# Archives (build release zips locally; use GitHub Releases for binaries)
+*.zip
+
+# Optional local tooling
+.cursor/
+.turbo/
+
+# Supabase CLI local cache
+supabase/.temp/

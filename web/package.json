@@ -1,0 +1,46 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run --config vitest.config.mjs",
+    "test:watch": "vitest --config vitest.config.mjs",
+    "e2e": "playwright test",
+    "e2e:artifacts": "E2E_ARTIFACTS=1 playwright test --workers=1",
+    "verify": "npm run lint && npm run build && npm test && npm run e2e"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.2",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.105.4",
+    "jose": "^6.2.3",
+    "next": "15.5.15",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "resend": "^6.12.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.56.1",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/jsdom": "^28.0.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^4.1.6",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.15",
+    "jsdom": "^27.0.1",
+    "msw": "^2.14.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.6"
+  }
+}

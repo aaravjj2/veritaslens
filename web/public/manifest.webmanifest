@@ -1,0 +1,10 @@
+{
+  "name": "VeritasLens",
+  "short_name": "VeritasLens",
+  "description": "AI-powered misinformation analysis for European news.",
+  "start_url": "/analyse",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#312e81",
+  "lang": "en"
+}

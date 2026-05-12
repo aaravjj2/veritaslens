@@ -1,0 +1,1 @@
+Synthetic Portuguese energy policy snippet for multilingual fixture tests.

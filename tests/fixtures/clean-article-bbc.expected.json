@@ -1,0 +1,6 @@
+{
+  "fixture": "clean-article-bbc.txt",
+  "expected_min_overall_score": 85,
+  "expected_tactics_include": ["no-issues"],
+  "notes": "Synthetic well-sourced style article for regression checks."
+}
