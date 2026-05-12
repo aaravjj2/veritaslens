@@ -1,5 +1,7 @@
 # VeritasLens
 
+**Repository:** [github.com/aaravjj2/veritaslens](https://github.com/aaravjj2/veritaslens)
+
 AI-assisted misinformation analysis aligned with the Academia EU hackathon brief: Next.js web app, Chrome MV3 extension, Claude-powered `/api/analyse`, optional Supabase persistence, and automated tests.
 
 ## Repository layout

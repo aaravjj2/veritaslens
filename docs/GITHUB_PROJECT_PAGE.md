@@ -71,3 +71,10 @@ Misinformation spreads faster than manual fact-checking. We wanted a **practical
 | **Thumbnail** (1200×630 JPEG, <5MB) | `docs/assets/thumbnail.jpg` |
 | **Live demo recording** (WebM, <5MB) | `docs/assets/demo.webm` |
 | **Screenshots** (JPEG, each <5MB) | `docs/assets/screenshots/*.jpg` |
+
+### Raw URLs (for Devpost / forms after `main` is pushed)
+
+- Thumbnail: `https://raw.githubusercontent.com/aaravjj2/veritaslens/main/docs/assets/thumbnail.jpg`
+- Demo video: `https://raw.githubusercontent.com/aaravjj2/veritaslens/main/docs/assets/demo.webm`
+- Screenshots: replace filename in  
+  `https://raw.githubusercontent.com/aaravjj2/veritaslens/main/docs/assets/screenshots/capture-01-landing.jpg` … `capture-10-offline-shell.jpg`
