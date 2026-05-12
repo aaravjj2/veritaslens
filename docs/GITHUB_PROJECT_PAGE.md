@@ -48,19 +48,28 @@ Misinformation spreads faster than manual fact-checking. We wanted a **practical
 
 ## Built with
 
-**Languages:** TypeScript, JavaScript, SQL (PostgreSQL migrations)
-
-**Web:** Next.js 15, React 19, Tailwind CSS 4, Zod, App Router middleware
-
-**Backend / APIs:** Next.js Route Handlers, Anthropic SDK, Resend (email hooks), Jose (JWT for extension token flow)
-
-**Data & auth:** Supabase (Auth + Postgres), `@supabase/ssr`
-
-**Extension:** Vite 6, Chrome Manifest V3
-
-**Testing:** Vitest, Playwright, MSW (API mocking in tests)
-
-**CI / hosting:** GitHub Actions, Vercel
+- TypeScript
+- JavaScript
+- SQL · PostgreSQL migrations
+- Next.js 15
+- React 19
+- Tailwind CSS 4
+- Zod
+- App Router middleware
+- Next.js Route Handlers
+- Anthropic SDK
+- Resend
+- Jose · JWT for extension tokens
+- Supabase Auth
+- Supabase Postgres
+- @supabase/ssr
+- Vite 6
+- Chrome Manifest V3
+- Vitest
+- Playwright
+- MSW
+- GitHub Actions
+- Vercel
 
 ---
 
