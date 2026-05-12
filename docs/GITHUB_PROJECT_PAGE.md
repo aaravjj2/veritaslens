@@ -12,7 +12,7 @@ Use this file when filling out a Devpost, hackathon portal, or GitHub “About�
 
 ### Elevator pitch (≤200 characters)
 
-**AI-assisted credibility analysis for news-like text: stream NDJSON results in the browser, optional Supabase auth, Chrome extension panel, and community corrections—built for transparent, EU-aligned misinformation workflows.**
+**Credibility analysis for pasted news-like text: NDJSON streaming (Next.js), optional Supabase + magic links, Chrome MV3 side panel, shareable results—transparent, EU-aligned misinformation tooling.**
 
 ---
 
